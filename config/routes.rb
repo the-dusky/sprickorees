@@ -1,6 +1,8 @@
 Sprickorees::Application.routes.draw do
   # Mount Spree's routes
   mount Spree::Core::Engine, :at => '/'
+  
+  match 'balls/index' => 'balls#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
