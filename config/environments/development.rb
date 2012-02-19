@@ -1,7 +1,5 @@
 Sprickorees::Application.configure do
   
-  config.action_controller.asset_host = "http://media2.hickorees.com"
-  
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
